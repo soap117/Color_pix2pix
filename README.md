@@ -45,6 +45,7 @@ Enter the name of save files: handbags
 ### Testing the model
 Run the eval.py to test model.
 The pre-trained model can be donwloaded from the logs file.
+Download the logs.zip files and extract them.
 2 models of handbags and shoes are uploaded into the logs file.
 <br>
 Forexample:
