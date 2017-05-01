@@ -13,6 +13,6 @@ Download the data sets from the https://people.eecs.berkeley.edu/~tinghuiz/proje
 <br>
 Then extract the data to your local disk.
 <br>
-Run the data_prepare.py to generate the training data.
+Run the /data/data_prepare.py to generate the training data.
 ### Training the model
 ### Testing the model
