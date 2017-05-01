@@ -15,12 +15,12 @@ Download the data sets from the https://people.eecs.berkeley.edu/~tinghuiz/proje
 <br>
 Then extract the data to your local disk.
 <br>
-Run the /data/data_prepare.py to generate the training data.
+Run the /data/data_pre.py to generate the training data.
 <br>
 Forexample:
 ```cmd
 cd "the location of data"
-python data_prepare.py
+python data_pre.py
 Enter the original data location: E:\\edges2handbags\\train\\
 Where you want to save the new data: E:\\color_pix2pix\\handbags\\
 ```
@@ -54,3 +54,6 @@ Enter the name of save files: handbags
 Enter the name of line picture: handbag.png
 Enter the name of color picture: handbag_c.png
 ```
+## Generating your own data sets
+The first is the same as in  [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow).
+Then use the data_pre.py to generate the training set for color_pix2pix.
