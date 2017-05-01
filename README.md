@@ -7,12 +7,47 @@ in the original pix2pix network. In color_pix2pix, the network is breaked into 2
 python 3.5<br>
 tesorflow 1.0<br>
 opencv3 <br>
-PIL<br>
+PIL or pillow<br>
+scipy<br>
 ## Getting Stated
 Download the data sets from the https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/.
 <br>
 Then extract the data to your local disk.
 <br>
 Run the /data/data_prepare.py to generate the training data.
+<br>
+Forexample:
+```cmd
+cd "the location of data"
+python data_prepare.py
+Enter the original data location: E:\\edges2handbags\\train\\
+Where you want to save the new data: E:\\color_pix2pix\\handbags\\
+```
 ### Training the model
+The models will be saved in ./logs. <br>
+Run the /train_edage2gray.py to train the first part of model.
+<br>
+Forexample:
+```cmd
+python train_edage2gray.py
+Enter the training data location: E:\\color_pix2pix\\handbags\\
+Enter the name of save files: handbags
+```
+Run the train_edage2gray.py to train the second part of model.
+<br>
+Forexample:
+```cmd
+python train_gray2real.py
+Enter the training data location: E:\\color_pix2pix\\handbags\\
+Enter the name of save files: handbags
+```
 ### Testing the model
+Run the eval.py to test model.
+<br>
+Forexample:
+```cmd
+python eval.py
+Enter the name of save files: handbags
+Enter the name of line picture: handbag.png
+Enter the name of color picture: handbag_c.png
+```
