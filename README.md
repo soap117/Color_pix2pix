@@ -26,7 +26,7 @@ Where you want to save the new data: E:\\color_pix2pix\\handbags\\
 ```
 ### Training the model
 The models will be saved in ./logs. <br>
-Run the /train_edage2gray.py to train the first part of model.
+Run the train_edage2gray.py to train the first part of model.
 <br>
 Forexample:
 ```cmd
@@ -34,7 +34,7 @@ python train_edage2gray.py
 Enter the training data location: E:\\color_pix2pix\\handbags\\
 Enter the name of save files: handbags
 ```
-Run the train_edage2gray.py to train the second part of model.
+Run the train_gray2real.py to train the second part of model.
 <br>
 Forexample:
 ```cmd
