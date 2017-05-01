@@ -8,3 +8,11 @@ python 3.5<br>
 tesorflow 1.0<br>
 opencv3 <br>
 PIL<br>
+## Getting Stated
+Download the data sets from the https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/.
+<br>
+Then extract the data to your local disk.
+<br>
+Run the data_prepare.py to generate the training data.
+### Training the model
+### Testing the model
