@@ -1,10 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/soap117/Color_px2pIx/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Color_pix2pix
+# Color_pix2pix
 
 This porject is based on pix2pix. The original pix2pix doesn't have the ability to choose the color. So I made a little reform 
 in the original pix2pix network. In color_pix2pix, the network is breaked into 2 parts. The first part generates the gray images according to the edges pictures. The second part is aimed at coloring the gray pictures according to a rough color distribution.
