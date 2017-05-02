@@ -35,6 +35,10 @@ Enter the training data location: E:\\color_pix2pix\\handbags\\
 Enter the name of save files: handbags
 ```
 Run the train_gray2real.py to train the second part of model.
+In second part, we resize the ground truth into a very small size like 6*6.
+Then resize it into original size to obtain a rough color distribution.
+After this operation, the color distribution only contains the information of color.<br> 
+![Image](https://github.com/soap117/Color_pix2pix/blob/master/images/image2.jpg)
 <br>
 Forexample:
 ```cmd
